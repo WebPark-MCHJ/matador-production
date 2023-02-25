@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  z-index: 1000;
+
+  &__bigbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__logo {
+    display: block;
+    position: relative;
+    width: 240px;
+    height: 40px;
+  }
+
+  &__langm {
+    display: none;
+  }
+
+  &__langbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon {
+    font-size: 20px;
+    color: #323131;
+  }
+
+  &__menubtn {
+    display: none;
+    text-align: center;
+    font-size: 26px;
+    color: #323131;
+    z-index: 1001;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    &__menubtn {
+      display: flex;
+    }
+
+    &__lang {
+      display: none;
+    }
+
+    &__langm {
+      display: block;
+    }
+  }
+}

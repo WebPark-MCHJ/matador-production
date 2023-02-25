@@ -1,0 +1,159 @@
+.willcome {
+  padding-top: 120px;
+
+  &__bigbox {
+    padding-left: 153px;
+  }
+
+  &__title {
+    width: 420px;
+    border-left: 3px solid #e94a46;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 145%;
+    color: #323131;
+    padding-left: 30px;
+    margin-bottom: 20px;
+
+    & > span {
+      color: #e94a46;
+    }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__imgbox {
+    position: relative;
+    max-width: 404px;
+    width: 100%;
+    height: 258px;
+  }
+
+  &__mapimg {
+    position: relative;
+    max-width: 260px;
+    width: 100%;
+    height: 123px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #323131;
+    margin-bottom: 30px;
+  }
+
+  &__link {
+    background-color: #fff;
+    box-shadow: 4px 4px 8px rgba(123, 123, 123, 0.1);
+    padding: 12px 20px;
+
+    & span {
+      display: inline-flex;
+      align-items: center;
+      font-size: 16px;
+      line-height: 150%;
+      color: #323131;
+    }
+  }
+
+  &__icon {
+    font-size: 20px;
+    color: #e94a46;
+    margin-right: 10px;
+  }
+
+  &__icon-r {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .willcome {
+    &__box {
+      gap: 20px;
+    }
+
+    &__imgbox {
+      max-width: 350px;
+    }
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .willcome {
+    &__imgbox,
+    &__infobox {
+      max-width: 45%;
+      width: 48%;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .willcome {
+    padding-top: 90px;
+
+    &__bigbox {
+      padding-left: 0;
+    }
+
+    &__box {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__imgbox {
+      max-width: 535px;
+      width: 100%;
+      height: 341px;
+    }
+
+    &__infobox {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .willcome {
+    padding-top: 60px;
+
+    &__title {
+      width: 100%;
+      font-size: 26px;
+      padding-left: 10px;
+    }
+
+    &__imgbox {
+      height: 235px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+
+    &__link {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+
+      & span {
+        font-size: 13px;
+      }
+    }
+
+    &__icon,
+    &__icon-r {
+      font-size: 16px;
+    }
+  }
+}

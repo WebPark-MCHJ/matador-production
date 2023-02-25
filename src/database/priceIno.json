@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Ceramic catalysts",
+    "importprice": "100 mln so‘mgacha",
+    "price": "Ceramic price",
+    "image": "/images/main/priceinfo/1.png"
+  },
+  {
+    "id": "2",
+    "name": "Metal catalysts",
+    "importprice": "100 mln so‘mgacha",
+    "price": "Metal price",
+    "image": "/images/main/priceinfo/2.png"
+  },
+  {
+    "id": "3",
+    "name": "Sejavli filters",
+    "importprice": "100 mln so‘mgacha",
+    "price": "Sejavli price",
+    "image": "/images/main/priceinfo/3.png"
+  }
+]

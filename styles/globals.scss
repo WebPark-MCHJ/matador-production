@@ -1,0 +1,71 @@
+@import "./fonts";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+main {
+  flex-grow: 1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 90% !important;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+@import "./loading";
+@import "../src/components/Header/Header";
+@import "../src/components/Header/Navbar";
+@import "../src/components/Hero/Hero";
+@import "../src/components/Main/Our/Our";
+@import "../src/components/Main/Calculation/Calculation";
+@import "../src/components/Main/About/About";
+@import "../src/components/Main/Why/Why";
+@import "../src/components/Main/PriceInfo/PriceInfo";
+@import "../src/components/Main/WillCome/WillCome";
+@import "../src/components/Main/Payment/Payment";
+@import "../src/components/Main/ContactUs/ContactUs";
+@import "../src/components/Main/Map/Map";
+@import "/src/components/Footer/Footer";

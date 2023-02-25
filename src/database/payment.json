@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "icon": "/images/main/payment/1.png",
+    "name": "Maximum comfort",
+    "desc": "Now you do..."
+  },
+  {
+    "id": "2",
+    "icon": "/images/main/payment/2.png",
+    "name": "Logistics from...",
+    "desc": "We remove any..."
+  },
+  {
+    "id": "3",
+    "icon": "/images/main/payment/3.png",
+    "name": "High prices",
+    "desc": "We buy at least..."
+  },
+  {
+    "id": "4",
+    "icon": "/images/main/payment/4.png",
+    "name": "Immediate payment",
+    "desc": "Automatador makes..."
+  }
+]

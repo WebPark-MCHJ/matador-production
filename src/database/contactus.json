@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Имя",
+    "type": "name",
+    "placeholder": "Your name",
+    "maxLength": "",
+    "error": "errors.name?.message"
+  },
+  {
+    "id": 2,
+    "name": "Телефон",
+    "type": "tel",
+    "placeholder": "Your phone",
+    "maxLength": 13,
+    "error": "errors.tel?.message"
+  },
+  {
+    "id": 3,
+    "name": "address",
+    "type": "address",
+    "placeholder": "Your address",
+    "maxLength": "",
+    "error": "errors.address?.message"
+  },
+  {
+    "id": 4,
+    "name": "",
+    "type": "size",
+    "placeholder": "Your material",
+    "maxLength": "",
+    "error": "errors.size?.message"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "icon": "/images/main/our/1.svg",
+    "text": "5 minutes",
+    "info": "Average"
+  },
+  {
+    "id": "2",
+    "icon": "/images/main/our/2.svg",
+    "text": "100%",
+    "info": "Accurate"
+  },
+  {
+    "id": "3",
+    "icon": "/images/main/our/3.svg",
+    "text": "tons",
+    "info": "We accept..."
+  },
+  {
+    "id": "4",
+    "icon": "/images/main/our/4.svg",
+    "text": "10.000+",
+    "info": "Satisfied customers"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "title": "Main",
+    "link": "hero",
+    "icon": "/images/footer/1.png"
+  },
+  {
+    "id": "2",
+    "title": "About us",
+    "link": "about",
+    "icon": "/images/footer/2.png"
+  },
+  {
+    "id": "3",
+    "title": "Prices",
+    "link": "price",
+    "icon": "/images/footer/3.png"
+  },
+  {
+    "id": "4",
+    "title": "Telegram",
+    "link": "tg",
+    "icon": "/images/footer/4.png"
+  },
+
+  {
+    "id": "5",
+    "title": "Contacts",
+    "link": "contact",
+    "icon": "/images/footer/5.png"
+  }
+]
